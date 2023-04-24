@@ -1,0 +1,25 @@
+.new_document_dialog {
+  &__file {
+    &__cancel {
+      &__container {
+        display: flex;
+        flex-direction: row;
+
+        justify-content: start;
+        align-items: center;
+
+        padding-top: 3%;
+        
+        max-width: 231.64px;
+
+        &__text {
+          margin-left: 2%;
+          
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+}
